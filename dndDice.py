@@ -10,7 +10,7 @@ class Dice:
 
     '''Intro to the application thats called on running Application'''
     def intro(self):
-        print('Please Select a dice by the number of sides desired to roll.\nYour options are:\nD2\nD4\nD6\nD8\nD12\nD16\nD18\nD20\nD100')
+        print('Please Select a dice by the number of sides desired to roll.\nYour options are:\n2\n4\n6\n8\n12\n16\n18\n20\n100')
 
     '''Takes user input and validates'''
     def getPlayerOption(self):
